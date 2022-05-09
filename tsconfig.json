@@ -8,6 +8,7 @@
       "declaration": true,
       "moduleResolution": "node",
       "noUnusedLocals": true,
+      "resolveJsonModule": true,
       "noUnusedParameters": true,
       "esModuleInterop": true,
       "noImplicitReturns": true,

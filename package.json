@@ -1,17 +1,25 @@
 {
-  "name": "@tofusoup429/react-component-module-frame",
-  "version": "0.0.10",
+  "name": "@wow/component-module",
+  "version": "1.0.1",
   "description": "React module frame",
-  "homepage": "https://github.com/tofusoup429/react-component-module-frame",
+  "homepage": "https://github.com/RajkeerthiTh/customreactmodule",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
     "build": "tsc"
   },
+  "publishConfig": {
+    "registry": "https://woolworths.jfrog.io/artifactory/api/npm/primary-csp-virtual/"
+  },
   "devDependencies": {
     "@types/react": ">=17.0.5",
     "@types/react-dom": ">=17.0.4",
     "@types/styled-components": "^5.1.9",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "@mui/material": "^5.0.0",
+    "@mui/x-data-grid-pro": "^5.5.1",
     "react": ">=17.0.2",
     "react-dom": ">=17.0.2",
     "typescript": ">=4.2.4"
